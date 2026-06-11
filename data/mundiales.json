@@ -7,7 +7,7 @@
     "subcampeon": "Francia",
     "goleador": "Kylian Mbappé",
     "equipos": 32,
-    "imagen": "qatar-2022.avif",
+    "imagen": "qatar-2022.png",
     "slug": "qatar-2022",
     "resumen": "Argentina campeón tras una final épica ante Francia.",
     "descripcion": "Primer Mundial en Medio Oriente; Argentina ganó en penales su tercer título mundial."
@@ -20,7 +20,7 @@
     "subcampeon": "Croacia",
     "goleador": "Harry Kane",
     "equipos": 32,
-    "imagen": "rusia-2018.avif",
+    "imagen": "rusia-2018.png",
     "slug": "rusia-2018",
     "resumen": "Francia se corona con una generación brillante liderada por Mbappé.",
     "descripcion": "Francia venció 4-2 a Croacia en la final disputada en Moscú. Harry Kane fue el máximo goleador con 6 goles."
@@ -33,7 +33,7 @@
     "subcampeon": "Argentina",
     "goleador": "James Rodríguez",
     "equipos": 32,
-    "imagen": "brasil-2014.avif",
+    "imagen": "brasil-2014.png",
     "slug": "brasil-2014",
     "resumen": "Alemania goleó 7-1 a Brasil en semifinales y venció a Argentina en la final.",
     "descripcion": "El Mineirazo: Alemania humilló a Brasil en su propio estadio y luego derrotó a Argentina con gol de Götze en la prórroga."
@@ -46,7 +46,7 @@
     "subcampeon": "Países Bajos",
     "goleador": "Thomas Müller",
     "equipos": 32,
-    "imagen": "sudafrica-2010.avif",
+    "imagen": "sudafrica-2010.png",
     "slug": "sudafrica-2010",
     "resumen": "España se corona por primera vez con un gol de Iniesta en la prórroga.",
     "descripcion": "Primer Mundial en África. España impuso su tiki-taka e Iniesta anotó el gol del título en el minuto 116 de la final."
@@ -59,7 +59,7 @@
     "subcampeon": "Francia",
     "goleador": "Miroslav Klose",
     "equipos": 32,
-    "imagen": "alemania-2006.avif",
+    "imagen": "alemania-2006.png",
     "slug": "alemania-2006",
     "resumen": "Italia gana su cuarto título; recordado por el cabezazo de Zidane a Materazzi.",
     "descripcion": "Italia venció a Francia en penales tras un empate 1-1. Zidane fue expulsado por dar un cabezazo a Materazzi en la final."
@@ -72,7 +72,7 @@
     "subcampeon": "Alemania",
     "goleador": "Ronaldo",
     "equipos": 32,
-    "imagen": "corea-japon-2002.avif",
+    "imagen": "corea-japon-2002.png",
     "slug": "corea-japon-2002",
     "resumen": "Brasil gana su quinto título con Ronaldo como figura indiscutible.",
     "descripcion": "Primer Mundial en Asia y primer torneo coanfitrión. Brasil venció 2-0 a Alemania con doblete de Ronaldo, máximo goleador con 8 tantos."
@@ -85,7 +85,7 @@
     "subcampeon": "Brasil",
     "goleador": "Davor Šuker",
     "equipos": 32,
-    "imagen": "francia-1998.avif",
+    "imagen": "francia-1998.png",
     "slug": "francia-1998",
     "resumen": "Francia gana su primer título en casa con un memorable 3-0 a Brasil.",
     "descripcion": "Primer Mundial con 32 equipos. Zidane anotó dos cabezazos en la final y Francia dominó a un Brasil apagado misteriosamente."
@@ -98,7 +98,7 @@
     "subcampeon": "Italia",
     "goleador": "Hristo Stoichkov",
     "equipos": 24,
-    "imagen": "eeuu-1994.avif",
+    "imagen": "eeuu-1994.png",
     "slug": "eeuu-1994",
     "resumen": "Brasil gana su cuarto título en una final decidida por penales.",
     "descripcion": "Primera final del Mundial resuelta por penales. Roberto Baggio falló el último disparo y Brasil se coronó campeón por cuarta vez."

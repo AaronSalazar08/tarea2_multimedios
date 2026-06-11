@@ -1,15 +1,17 @@
 import express from 'express';
+import { getAllHandler } from './routes/mundiales/getAll.js';
+import { getBySlugHandler } from './routes/mundiales/getBySlug.js';
+import { getByCampeonHandler } from './routes/mundiales/getByCampeon.js';
+import { getRandomHandler } from './routes/mundiales/getRandom.js';
+import { searchHandler } from './routes/mundiales/search.js';
 
 const HOST = 'localhost';
 const PORT = process.env.PORT || 4321;
 
 const app = express();
 app.use(express.json());
-
-// Archivos estáticos (imágenes de cada edición)
 app.use('/imagenes', express.static('public/imagenes'));
 
-// Ruta raíz: información del API
 app.get('/', (req, res) => {
   res.json({
     nombre: 'API Copa Mundial FIFA',
@@ -17,6 +19,7 @@ app.get('/', (req, res) => {
     descripcion: 'API REST con información histórica de las ediciones de la Copa Mundial de la FIFA.',
     rutas: [
       'GET /mundiales             - Lista todas las ediciones',
+      'GET /mundiales?include=full - Lista con todos los campos',
       'GET /mundial/:slug         - Detalle de una edición por slug',
       'GET /campeon/:pais         - Ediciones ganadas por un país',
       'GET /random                - Edición aleatoria',
@@ -26,7 +29,12 @@ app.get('/', (req, res) => {
   });
 });
 
-// 404 para rutas no definidas
+app.get('/mundiales', getAllHandler);
+app.get('/mundial/:slug', getBySlugHandler);
+app.get('/campeon/:pais', getByCampeonHandler);
+app.get('/random', getRandomHandler);
+app.get('/search/:text', searchHandler);
+
 app.use((req, res) => {
   res.status(404).json({ error: 'Ruta no encontrada' });
 });
