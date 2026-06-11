@@ -4,13 +4,13 @@ import { getBySlugHandler } from './routes/mundiales/getBySlug.js';
 import { getByCampeonHandler } from './routes/mundiales/getByCampeon.js';
 import { getRandomHandler } from './routes/mundiales/getRandom.js';
 import { searchHandler } from './routes/mundiales/search.js';
+import { imagenesHandler } from './routes/imagenes.js';
 
 const HOST = 'localhost';
 const PORT = process.env.PORT || 4321;
 
 const app = express();
 app.use(express.json());
-app.use('/imagenes', express.static('public/imagenes'));
 
 app.get('/', (req, res) => {
   res.json({
@@ -29,6 +29,7 @@ app.get('/', (req, res) => {
   });
 });
 
+app.use('/imagenes', imagenesHandler);
 app.get('/mundiales', getAllHandler);
 app.get('/mundial/:slug', getBySlugHandler);
 app.get('/campeon/:pais', getByCampeonHandler);
